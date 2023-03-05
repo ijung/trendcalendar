@@ -44,14 +44,47 @@
   </script>
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1296787192';
+    var serviceWorkerVersion = '2921836669';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <script type="text/javascript">
+      var xmlHttp = new XMLHttpRequest();
+      var url = "sponsors.json";
+
+      xmlHttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          getSponsors(xmlHttp.responseText);
+        }
+      };
+      xmlHttp.open("GET", url, true);
+      xmlHttp.send();
+
+      function getSponsors(resp) {
+        var arr = JSON.parse(resp);
+        if(arr.length < 1) return;
+        var out = "후원해 주신 분들</br>";
+
+        for (var i = 0; i < arr.length; i++) {
+          out += "</br>" + arr[i] + "</br>"
+        }
+        document.getElementById('sponsors').innerHTML = out;
+      }
+    </script>
 </head>
 <body>
-Now Loading..
-  <script>
+  <center><font color="black">
+    Now Loading..
+  <br>
+  <br>
+  <br>
+  <br>
+  <p id="sponsors"></p>
+  </font></center>
+
+
+<script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
