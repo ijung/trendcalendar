@@ -3,12 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "67cd43484a125a16345101e80cf74a24",
+  "assets/AssetManifest.json": "267298054ac8a637004206ee42430b38",
 "assets/assets/images/app_icon.png": "7a94dcb97b205a7e0a4678b58850bac4",
+"assets/assets/translations/en.json": "c01789a899c5300da67742d0844a1ab1",
+"assets/assets/translations/ja.json": "f4cdb44dbb63fc6a22faf0536592babb",
+"assets/assets/translations/ko.json": "e29b89b2c8ff829f055ed7cc4b957117",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "44818cbec9ead11d8ecad334567ae3c9",
+"assets/NOTICES": "f5c8ed9ecd0d740caa7f6e6ec02c0744",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/easy_localization/i18n/ar-DZ.json": "acc0a8eebb2fcee312764600f7cc41ec",
+"assets/packages/easy_localization/i18n/ar.json": "acc0a8eebb2fcee312764600f7cc41ec",
+"assets/packages/easy_localization/i18n/en-US.json": "5f5fda8715e8bf5116f77f469c5cf493",
+"assets/packages/easy_localization/i18n/en.json": "5f5fda8715e8bf5116f77f469c5cf493",
 "assets/packages/timezone/data/latest_all.tzf": "d34414858d4bd4de35c0ef5d94f1d089",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
 "canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
@@ -20,11 +27,10 @@ const RESOURCES = {
 "icons/Icon-512.png": "0592dfe3b97f6e3fd0019861b69d1ee6",
 "icons/Icon-maskable-192.png": "8a4cfb33d7601f7799771549f89ad5f1",
 "icons/Icon-maskable-512.png": "0592dfe3b97f6e3fd0019861b69d1ee6",
-"index.html": "043e987599406ac99a35153cc67cab55",
-"/": "043e987599406ac99a35153cc67cab55",
-"main.dart.js": "79907a334d77cf0070ba6dfe26f3fce2",
+"index.html": "40c60af5b1f354ca265055710938d5e2",
+"/": "40c60af5b1f354ca265055710938d5e2",
+"main.dart.js": "3fd9913a55d0bf9a59df474624c258f9",
 "manifest.json": "af1c1026f4bcac4e352c1835b200e232",
-"sponsors.json": "d751713988987e9331980363e24189ce",
 "version.json": "c4b4cace82bd2c580ce8b50ca44bfe23"
 };
 
