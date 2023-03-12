@@ -73,10 +73,23 @@
         document.getElementById('sponsors').innerHTML = out;
       }
     </script>
+    <link rel="stylesheet" type="text/css" href="loading.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147514781-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-147514781-1');
+    </script>
 </head>
 <body>
-  <center><font color="black">
-    Now Loading..
+  <center>
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-text">loading</div>
+    </div>
   <br>
   <br>
   <br>
