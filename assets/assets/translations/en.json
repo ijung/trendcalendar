@@ -1,5 +1,5 @@
 {
-  "대유행 알리미": "Trend Schedular",
+  "대유행 알리미": "Trend Timer",
   "시간표": "Schedule",
   "리스트": "List",
   "정보": "Infos",
@@ -149,5 +149,6 @@
   "기간 내에 유행이 없습니다.": "no trend within period",
 
   "한국 시간 사용": "Use Korean timezone",
-  "어플홍보문구": "안드로이드 어플을 받으시면 푸시도 사용가능!"
+  "어플홍보문구": "안드로이드 어플을 받으시면 푸시도 사용가능!",
+  "사용설명": "Select interested Trade area & Trends in Setting and SAVE!"
 }

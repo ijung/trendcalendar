@@ -7,10 +7,10 @@ const RESOURCES = {
 "assets/assets/images/alipay.jpg": "1af5d0b5e721aa2dbcd1d11b5d776758",
 "assets/assets/images/app_icon.png": "7a94dcb97b205a7e0a4678b58850bac4",
 "assets/assets/images/coffeecat.jpg": "9131f18e1e997329083f9921d2361f74",
-"assets/assets/translations/en.json": "a64951d70b403d69915f1d1948fe0256",
-"assets/assets/translations/ja.json": "e98975523d7f73fa93907682c26e8c57",
-"assets/assets/translations/ko.json": "cfcf1bd558ff6b24d1ddafe434cfbd32",
-"assets/assets/translations/zh.json": "f6f29aec13265291e886310870507e34",
+"assets/assets/translations/en.json": "b3650d3dcd0801d59bfcc8d5010e5e3e",
+"assets/assets/translations/ja.json": "f98dec1161afb7709818b019c9526a87",
+"assets/assets/translations/ko.json": "d1448279f6c1e31b1dc1283857021ab1",
+"assets/assets/translations/zh.json": "5cee5f448a7a72515f85d8a933350d5d",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/NOTICES": "35ef3ba6a3dbb1feffdfc937233e7a02",
@@ -30,11 +30,12 @@ const RESOURCES = {
 "icons/Icon-512.png": "0592dfe3b97f6e3fd0019861b69d1ee6",
 "icons/Icon-maskable-192.png": "8a4cfb33d7601f7799771549f89ad5f1",
 "icons/Icon-maskable-512.png": "0592dfe3b97f6e3fd0019861b69d1ee6",
-"index.html": "53c17efa0e9289943fd62d92d80a6b4f",
-"/": "53c17efa0e9289943fd62d92d80a6b4f",
-"main.dart.js": "ae3578f17845cc951a35057ad3f36177",
+"index.html": "449c4fd82190ce5f35ae89116503fc9b",
+"/": "449c4fd82190ce5f35ae89116503fc9b",
+"loading.css": "86be72326e14b11bf4ad6eac92740ae8",
+"main.dart.js": "58d44c22628f82c4350015e1cff8b687",
 "manifest.json": "af1c1026f4bcac4e352c1835b200e232",
-"version.json": "f2d1e39975aad16338e4dc3bf7836dae"
+"version.json": "b64bd3ca22e0611deb6154930279fce8"
 };
 
 // The application shell files that are downloaded before a service worker can
