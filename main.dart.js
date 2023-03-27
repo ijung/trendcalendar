@@ -92604,7 +92604,9 @@ this.b.e[r]=a
 s.a=r+1},
 $S:92}
 A.ao1.prototype={
-$1(a){this.b.f[this.a.a]=a},
+$1(a){var s=this.a,r=s.a
+this.b.f[r]=a
+s.a=r+1},
 $S:8}
 A.anX.prototype={
 $2(a,b){var s=this.a
@@ -92683,7 +92685,9 @@ this.b.e[r]=a
 s.a=r+1},
 $S:92}
 A.apT.prototype={
-$1(a){this.b.f[this.a.a]=a},
+$1(a){var s=this.a,r=s.a
+this.b.f[r]=a
+s.a=r+1},
 $S:8}
 A.apR.prototype={
 $2(a,b){var s=null,r=this.a,q=b.a,p=A.aIe(q)
@@ -92861,7 +92865,9 @@ this.b.e[r]=a
 s.a=r+1},
 $S:92}
 A.asf.prototype={
-$1(a){this.b.f[this.a.a]=a},
+$1(a){var s=this.a,r=s.a
+this.b.f[r]=a
+s.a=r+1},
 $S:8}
 A.asg.prototype={
 $1(a){var s,r,q,p=this.a
