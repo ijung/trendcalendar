@@ -68,6 +68,10 @@
   "북극해": "Arctic",
   "태평양": "Pacific",
 
+  "오세아니아동부": "E.Oceania",
+  "오세아니아동부도시": "Whanganui, Samarai, Suva, Yuldo",
+  "오세아니아동부설명": "East Oceania",
+
   "극동아시아도시": "Shuri, Nagasaki, Sakai, Edo, Ezo, Deokwon, Yeongil, Dongnae, Jeju, Hanyang, Okhotsk, Korf",
   "동아시아도시": "Macau, Quanzhou, Tainan, Hobe, Hangzhou, Chongqing, Yanyun, Chang'an, Peking",
   "남아시아도시": "Aceh, Pasay, Palembang, Pangkal Pinang, JayaKarta, Surabaya, Banjarmasin, Makassar, Dili, Ambon, Banda, Ternate, Davao, Jolo, Manila, Brunei, Kuching",
@@ -83,8 +87,8 @@
   "아프리카남쪽도시": "Lunada, Benguela, Karibib, Cape Town",
   "아프리카동쪽도시": "Natal, Sofala, Quelimane, Mozambique, Toamasina, Kilwa, Zanzibar, Manbasa, Malindi, Mogadishu",
   "북아메리카서부도시": "Tacoma, Ohlon, Acapulco, Guatemala",
-  "북극해도시": "Reykjavik, Unalaska, Vardø, Arkhangelsk",
-  "태평양도시": "Mahina, Atuona",
+  "북극해도시": "Reykjavik, Unalaska, Vardø, Arkhangelsk, Unalaska",
+  "태평양도시": "Mahina, Atuona, Honolulu",
 
   "극동아시아설명": "Far East Asia",
   "동아시아설명": "East Asia",
