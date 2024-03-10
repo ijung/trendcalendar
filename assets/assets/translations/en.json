@@ -160,5 +160,10 @@
   "한국 시간 사용": "Use Korean timezone",
   "어플을 사용하시면 푸시도 사용 가능!": "Notification available on Apps!",
   "설정에서 지역&유행을 체크 후 저장해 주세요.": "Select interested Trade area & Trends in Setting and SAVE!",
-  "오늘 하루 보지 않기": "Don't show this today"
+  "오늘 하루 보지 않기": "Don't show this today",
+
+  "모비딕": "Moby Dick",
+  "마닐라": "Manila (Melee)",
+  "초기화": "Reset",
+  "초기화 안내": "All previously saved content will be lost."
 }
