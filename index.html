@@ -18,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="대유행 알리미">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -33,15 +33,74 @@
   <link rel="manifest" href="manifest.json">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5154988531467064"
           crossorigin="anonymous"></script>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZTXDS4Q4J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8ZTXDS4Q4J');
+  </script>
+  
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2618313392';
+    var serviceWorkerVersion = '784720180';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <script type="text/javascript">
+      var xmlHttp = new XMLHttpRequest();
+      var rndNum = Math.random();
+      var url = "sponsors.json?" + rndNum;
+
+      xmlHttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          getSponsors(xmlHttp.responseText);
+        }
+      };
+      xmlHttp.open("GET", url, true);
+      xmlHttp.send();
+
+      function getSponsors(resp) {
+        var arr = JSON.parse(resp);
+        if(arr.length < 1) return;
+        var out = "<h3>후원해 주신 분들</h3></br>";
+        out += "</br><h2>" + arr[0] + "</h2></br>"
+        for (var i = 1; i < arr.length; i++) {
+          out += "</br><h4>" + arr[i] + "</h4>"
+        }
+        document.getElementById('sponsors').innerHTML = out;
+      }
+    </script>
+    <link rel="stylesheet" type="text/css" href="loading.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147514781-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-147514781-1');
+    </script>
 </head>
 <body>
-Now Loading..
+  <center> 
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-text">loading</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <font color="black">
+      <p id="sponsors"></p>
+    </font>
+  </center>
+  
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
