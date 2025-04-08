@@ -11,7 +11,7 @@ const RESOURCES = {
 "assets/assets/images/play-store.png": "01bb5e76f4a7270df1bde93646378bf3",
 "assets/assets/translations/en.json": "7f1b1a44feb536c251d1caa4ad978ec0",
 "assets/assets/translations/ja.json": "a43445ccb2d05375d758ef8b9812b98a",
-"assets/assets/translations/ko.json": "4e23ef39ab24e84e172c8e31a1999c49",
+"assets/assets/translations/ko.json": "69ace92e3dd0c936e352483cb0d9e59a",
 "assets/assets/translations/zh.json": "70d3593d1817cf3d79403aba1f4f5dde",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
@@ -28,10 +28,10 @@ const RESOURCES = {
 "icons/Icon-512.png": "0592dfe3b97f6e3fd0019861b69d1ee6",
 "icons/Icon-maskable-192.png": "8a4cfb33d7601f7799771549f89ad5f1",
 "icons/Icon-maskable-512.png": "0592dfe3b97f6e3fd0019861b69d1ee6",
-"index.html": "cd9429f8c1d37480d496ace490427fa2",
-"/": "cd9429f8c1d37480d496ace490427fa2",
+"index.html": "2278ec900faca59c7543599b0b3f9eb3",
+"/": "2278ec900faca59c7543599b0b3f9eb3",
 "loading.css": "86be72326e14b11bf4ad6eac92740ae8",
-"main.dart.js": "c4dd894f10e38a6353443c851e1b3804",
+"main.dart.js": "5b1c16ed753912f692d85797400fbc0b",
 "manifest.json": "af1c1026f4bcac4e352c1835b200e232",
 "version.json": "ab95272bb08b98e45bd070c38621371c"
 };
