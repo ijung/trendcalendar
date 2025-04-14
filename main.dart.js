@@ -27027,17 +27027,17 @@ if(d)$.aYg=$.wM()-1
 s=new A.F(Date.now(),!1).j2().u(0,B.ww)
 r=A.a([],t.eg)
 for(q=0;q<11;++q)if(b[q]){p=B.Dw[q]
-switch(B.b.gX(p)){case"\uc650\ud488":case"\ub124\ubca0\uc2a4\ub85c\uc774\ub4dc":for(o=p.length,n=0;n<o;++n){J.cU(a[B.b.ie(B.aW,new A.ay6(p,n))],4,!0)
+switch(B.b.gX(p)){case"\uc650\ud488":case"\ub124\ubca0\uc2a4\ub85c\uc774\ub4dc":for(o=p.length,n=1;n<o;++n){J.cU(a[B.b.ie(B.aW,new A.ay6(p,n))],4,!0)
 J.cU(a[B.b.ie(B.aW,new A.ay7(p,n))],7,!0)}break
-case"\ub3c5\uc218\ub9ac\uae43\ud138":for(o=p.length,n=0;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ay8(p,n))],2,!0)
+case"\ub3c5\uc218\ub9ac\uae43\ud138":for(o=p.length,n=1;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ay8(p,n))],2,!0)
 break
-case"\uc6b4\ucca0":for(o=p.length,n=0;n<o;++n){J.cU(a[B.b.ie(B.aW,new A.ay9(p,n))],2,!0)
+case"\uc6b4\ucca0":for(o=p.length,n=1;n<o;++n){J.cU(a[B.b.ie(B.aW,new A.ay9(p,n))],2,!0)
 J.cU(a[B.b.ie(B.aW,new A.aya(p,n))],5,!0)}break
-case"\ud30c\uc774\ud504":for(o=p.length,n=0;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ayb(p,n))],1,!0)
+case"\ud30c\uc774\ud504":for(o=p.length,n=1;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ayb(p,n))],1,!0)
 break
-case"\uc57c\ucfe0\ud2b8\uce7c":for(o=p.length,n=0;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ayc(p,n))],3,!0)
+case"\uc57c\ucfe0\ud2b8\uce7c":for(o=p.length,n=1;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ayc(p,n))],3,!0)
 break
-case"\uad6c\uc2ac \uc778\ud615":for(o=p.length,n=0;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ayd(p,n))],1,!0)
+case"\uad6c\uc2ac \uc778\ud615":for(o=p.length,n=1;n<o;++n)J.cU(a[B.b.ie(B.aW,new A.ayd(p,n))],1,!0)
 break
 case"\uc2dd\ub8cc\ud488":for(n=0;n<18;++n){J.cU(a[n],0,!0)
 J.cU(a[n],2,!0)}break
